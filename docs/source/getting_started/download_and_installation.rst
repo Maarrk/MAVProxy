@@ -41,6 +41,11 @@ For Fedora based systems:
     
 .. note::
 
+    On newest Ubuntu versions (18 and higher) only ``python-wxgtk4.0`` may be available.
+    A list of available versions can be obtained with ``apt list python3-wxgtk*``
+    
+.. note::
+
     On Raspberry Pi (Raspian) systems, the ``libxml2-dev`` package is required to be installed too.
         
 Then download and install MAVProxy via Pypi. Prerequisites will be
